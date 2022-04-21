@@ -24,6 +24,14 @@ class User {
         return this.lastUpdated
     }
 
+    set setUserName(newUserName){
+        return this.userName = newUserName
+    }
+
+    set setBio(newBio){
+        return this.bio = newBio
+    }
+
        
 }
 

@@ -17,6 +17,12 @@ class UserView {
             }
             return result
         }
+        if(payload.username === "Username"){
+            const result = {
+                error:"necesitan tener un valor valido"
+            }
+            return result
+        }
         
 
         

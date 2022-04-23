@@ -1,5 +1,3 @@
-const UserService = require('./../services/UserService')
-
 class UserView {
    static createUser(payload ){
     
@@ -24,6 +22,7 @@ class UserView {
             return result
         }
         
+       return payload
 
         
     }

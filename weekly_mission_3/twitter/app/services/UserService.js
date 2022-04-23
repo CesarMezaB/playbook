@@ -20,8 +20,6 @@ class UserService {
         let name3 = users[0][2].userName;
          let arr =[name1,name2,name3]
              
-              
-       
         return arr
     }
 
